@@ -1,0 +1,52 @@
+h1, h2 {
+    margin-top: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 0%;
+    padding: 0;
+    height: 200px;
+    font-size: large;
+    background-color: black;
+}
+
+div{
+    height: 500px;
+    margin:0;
+    padding:0;
+    font-family:"arial",heletica,sans-serif;
+    font-size:12px;
+    background: #2980b9 url('http://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+    -webkit-animation: 10s linear 0s normal none infinite animate;
+    -moz-animation: 10s linear 0s normal none infinite animate;
+    -ms-animation: 10s linear 0s normal none infinite animate;
+    -o-animation: 10s linear 0s normal none infinite animate;
+    animation: 10s linear 0s normal none infinite animate;
+ 
+}
+ 
+@-webkit-keyframes animate {
+    from {background-position:0 0;}
+    to {background-position: 0 -500px;}
+}
+ 
+@-moz-keyframes animate {
+    from {background-position:0 0;}
+    to {background-position: 0 -500px;}
+}
+ 
+@-ms-keyframes animate {
+    from {background-position:0 0;}
+    to {background-position: 0 -500px;}
+}
+ 
+@-o-keyframes animate {
+    from {background-position:0 0;}
+    to {background-position: 0 -500px;}
+}
+ 
+@keyframes animate {
+    from {background-position:0 0;}
+    to {background-position: 0 -500px;}
+}
